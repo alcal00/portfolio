@@ -29,7 +29,7 @@ export function About() {
                 <img
                     src="images/icons8-double-down-50.png"
                     alt=""
-                    className="h-6 mt-6"
+                    className="h-6 mt-6 animate-bounce"
                 />
             </a>
         </div>
