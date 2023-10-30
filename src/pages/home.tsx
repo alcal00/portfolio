@@ -2,17 +2,17 @@ export function Home() {
     return (
         <div className="md:mt-36 mt-48 flex flex-col items-center">
             <p className="font-semibold text-lg text-center text-gray-600">
-                Salut ! Je suis,
+                Bonjour ! Je suis,
             </p>
-            <h1 className="text-8xl text-center font-extrabold mb-6 mt-4">
+            <h1 className="md:text-8xl text-6xl text-center font-extrabold mb-6 mt-4">
                 Développeur Web
             </h1>
-            <p className="text-4xl text-center font-bold text-gray-500">
+            <p className="md:text-4xl text-2xl text-center font-bold text-gray-500">
                 Alcal DIABY
             </p>
             <div className="mt-6 flex flex-row gap-3">
                 <a
-                    href="./public/docs/CV-Alcal-DIABY.pdf"
+                    href=" docs/CV-Alcal-DIABY.pdf"
                     download="CV-Alcal-DIABY.pdf"
                     className="bg-gray-800 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded-full"
                 >
@@ -27,7 +27,7 @@ export function Home() {
             </div>
             <div className="mt-2">
                 <a href="https://www.linkedin.com/in/alcal-diaby-509774201/" target="_blank" rel="noopener noreferrer">
-                    <img src="./public/images/linkedin.webp"
+                    <img src="images/linkedin.webp"
                         alt="LinkedIn"
                         className="h-12"
                     />
@@ -35,7 +35,7 @@ export function Home() {
             </div>
             <a href="#about">
                 <img
-                    src="./public/images/icons8-double-down-50.png"
+                    src="images/icons8-double-down-50.png"
                     alt=""
                     className="h-6 mt-6"
                 />

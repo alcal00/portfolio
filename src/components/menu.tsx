@@ -12,7 +12,7 @@ export function Menu() {
             <div className="max-w-5xl mx-auto px-4">
                 <div className="flex items-center justify-between h-28">
                     <img 
-                    src="./public/images/logo-removebg-preview.png" alt="" 
+                    src="images/Logo-removebg-preview.png" alt="" 
                     className='h-36 pb-2'
                     />
                     <div className="md:hidden">
@@ -48,7 +48,7 @@ export function Menu() {
                             <a href="#about">À Propos</a>
                         </li>
                         <li className="py-2 hover:bg-gray-100">
-                            <a href="#tech">Technologies</a>
+                            <a href="#tech">Compétences</a>
                         </li>
                         <li className="py-2 hover:bg-gray-100">
                             <a href="#projects">Projets</a>

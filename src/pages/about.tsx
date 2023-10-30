@@ -27,7 +27,7 @@ export function About() {
             </div>
             <a href="#tech">
                 <img
-                    src="./public/images/icons8-double-down-50.png"
+                    src="images/icons8-double-down-50.png"
                     alt=""
                     className="h-6 mt-6"
                 />

@@ -5,15 +5,15 @@ export function Contact() {
             <div className="max-w-sm mx-auto bg-white rounded-xl shadow-md overflow-hidden">
                 <div className="p-6">
                     <h3 className="text-2xl font-semibold text-gray-800 mb-2">
-                        Contactez-moi
+                        Comment me contacter
                     </h3>
                     <p className="text-gray-600 mb-4">
-                        N'hésitez pas à me contacter pour toute question ou opportunité.
+                       Je suis joignable par email, téléphone ou sur Linkedin.
                     </p>
                     <div className="flex items-center mb-2">
                         {/* By Freepik*/}
                         <img
-                            src="./public/images/phone.png"
+                            src="images/phone.png"
                             alt=""
                             className="h-5 w-5 text-gray-500 mr-2"
                         />
@@ -22,7 +22,7 @@ export function Contact() {
                     <div className="flex items-center mb-2">
                         {/* By Those Icons*/}
                         <img
-                            src="./public/images/email.png"
+                            src="images/email.png"
                             alt=""
                             className="h-5 w-5 text-gray-500 mr-2"
                         />
@@ -35,7 +35,7 @@ export function Contact() {
                     </div>
                     <div className="flex items-center">
                         <img
-                            src="./public/images/linkedin.webp"
+                            src="images/linkedin.webp"
                             alt=""
                             className="h-5 w-5 text-gray-500 mr-2"
                         />

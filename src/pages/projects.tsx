@@ -10,7 +10,7 @@ export function Projects() {
                     <a href="https://github.com/alcal00/API-Fastify"
                     target="_blank" rel="noopener noreferrer"
                     >
-                        <img className="rounded-t-lg" src="./public/images/Api-Todo.png" alt="" />
+                        <img className="rounded-t-lg" src="images/Api-Todo.png" alt="" />
                     </a>
                     <div className="p-5">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Api-Todo</h5>
@@ -29,7 +29,7 @@ export function Projects() {
                     <a href="https://github.com/alcal00/TodoReact"
                     target="_blank" rel="noopener noreferrer"
                     >
-                        <img className="rounded-t-lg" src="./public/images/TodoListV1.png" alt="" />
+                        <img className="rounded-t-lg" src="images/TodoListV1.png" alt="" />
                     </a>
                     <div className="p-5">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">To Do List</h5>
@@ -48,7 +48,7 @@ export function Projects() {
                     <a href="https://github.com/alcal00/TodoTS"
                     target="_blank" rel="noopener noreferrer"
                     >
-                        <img className="rounded-t-lg" src="./public/images/TodoListV2.png" alt="" />
+                        <img className="rounded-t-lg" src="images/TodoListV2.png" alt="" />
                     </a>
                     <div className="p-5">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">To Do List V2</h5>
@@ -66,7 +66,7 @@ export function Projects() {
             </div>
             <a href="#contact">
                 <img
-                    src="./public/images/icons8-double-down-50.png"
+                    src="images/icons8-double-down-50.png"
                     alt=""
                     className="h-6 mt-6"
                 />
