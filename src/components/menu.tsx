@@ -43,20 +43,28 @@ export function Menu() {
             </div>
             <div className={`md:hidden ${menuOpen ? 'block' : 'hidden'} w-44 absolute top-25 right-5 `}>
                     {/* Contenu du menu déroulant */}
-                    <ul className="bg-white text-gray-900 mt-4 p-4 divide-y divide-gray-100 shadow rounded-lg">
-                        <li className="py-2 hover:bg-gray-100">
-                            <a href="#about">À Propos</a>
-                        </li>
-                        <li className="py-2 hover:bg-gray-100">
-                            <a href="#tech">Compétences</a>
-                        </li>
-                        <li className="py-2 hover:bg-gray-100">
-                            <a href="#projects">Projets</a>
-                        </li>
-                        <li className="py-2 hover:bg-gray-100">
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
+                    <div className="bg-white text-gray-900 mt-4 p-4 divide-y divide-gray-100 shadow rounded-lg">
+                        <a href="#about">
+                            <div className="py-2 hover:bg-gray-100">
+                                À Propos
+                            </div>
+                        </a>
+                        <a href="#tech">
+                            <div className="py-2 hover:bg-gray-100">
+                                Compétences
+                            </div>
+                        </a>
+                        <a href="#projects">
+                            <div className="py-2 hover:bg-gray-100">
+                                Projets
+                            </div>
+                        </a>
+                        <a href="#contact">
+                            <div className="py-2 hover:bg-gray-100">
+                                Contact
+                            </div>
+                        </a>
+                    </div>
                 </div>
         </nav>
        
