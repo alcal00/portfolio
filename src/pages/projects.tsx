@@ -6,7 +6,7 @@ export function Projects() {
                 Projets
             </h1>
             <div className="mt-12 flex md:flex-row flex-col gap-6">
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow scale-100 hover:scale-105 ease-in duration-300">
                     <a href="https://github.com/alcal00/API-Fastify"
                     target="_blank" rel="noopener noreferrer"
                     >
@@ -25,7 +25,7 @@ export function Projects() {
                         </a>
                     </div>
                 </div>
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow scale-100 hover:scale-105 ease-in duration-300">
                     <a href="https://github.com/alcal00/TodoReact"
                     target="_blank" rel="noopener noreferrer"
                     >
@@ -44,7 +44,7 @@ export function Projects() {
                         </a>
                     </div>
                 </div>
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow scale-100 hover:scale-105 ease-in duration-300">
                     <a href="https://github.com/alcal00/TodoTS"
                     target="_blank" rel="noopener noreferrer"
                     >

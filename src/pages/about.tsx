@@ -9,12 +9,12 @@ export function About() {
                 À propos de moi
             </h1>
             <div className="mt-12 flex md:flex-row flex-col gap-6">
-                <div className="w-72 h-36 p-6 bg-white border border-gray-200 rounded-lg shadow">
+                <div className="w-72 h-36 p-6 bg-white border border-gray-200 rounded-lg shadow scale-100 hover:scale-110 ease-in duration-300">
                     <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900">Experience</h5>
                     <p className="font-normal text-center text-gray-700">Développeur Front End (stage)</p>
                     <p className="font-normal text-center text-gray-700">Tokee</p>
                 </div>
-                <div className="w-72 h-36 p-6 bg-white border border-gray-200 rounded-lg shadow">
+                <div className="w-72 h-36 p-6 bg-white border border-gray-200 rounded-lg shadow scale-100 hover:scale-110 ease-in duration-300">
                     <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900">Éducation</h5>
                     <p className="font-normal text-center text-gray-700">3ème année de BUT Informatique</p>
                     <p className="font-normal text-center text-gray-700">IUT Lyon 1</p>

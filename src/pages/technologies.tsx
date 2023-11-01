@@ -5,7 +5,7 @@ export function Technologies() {
                 Compétences
             </h1>
             <div className="mt-12 flex md:flex-row flex-col gap-8">
-                <div className="w-96 h-72 p-6 bg-white border border-gray-200 rounded-lg shadow">
+                <div className="w-96 h-72 p-6 bg-white border border-gray-200 rounded-lg shadow scale-100 hover:scale-105 ease-in duration-300">
                     <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900">Développement Front End</h5>
                     <div className="mt-6 flex flex-wrap">
                         <ul className="w-1/2 flex flex-col">
@@ -20,7 +20,7 @@ export function Technologies() {
                         </ul>
                     </div>
                 </div>
-                <div className="w-96 h-72 p-6 bg-white border border-gray-200 rounded-lg shadow">
+                <div className="w-96 h-72 p-6 bg-white border border-gray-200 rounded-lg shadow scale-100 hover:scale-105 ease-in duration-300">
                     <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900">Développement Back End</h5>
                     <div className="mt-6 flex flex-wrap">
                         <ul className="w-1/2 flex flex-col">

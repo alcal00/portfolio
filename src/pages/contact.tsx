@@ -2,7 +2,7 @@
 export function Contact() {
     return (
         <div className="my-36" id="contact">
-            <div className="max-w-sm mx-auto bg-white rounded-xl shadow-md overflow-hidden">
+            <div className="max-w-sm mx-auto bg-white rounded-xl shadow-md overflow-hidden scale-100 hover:scale-105 ease-in duration-300">
                 <div className="p-6">
                     <h3 className="text-2xl font-semibold text-gray-800 mb-2">
                         Comment me contacter
