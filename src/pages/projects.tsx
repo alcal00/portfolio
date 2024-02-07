@@ -1,12 +1,12 @@
 
 export function Projects() {
     return (
-        <div className="my-44 flex flex-col items-center" id="projects">
-            <h1 className="text-center text-3xl font-bold">
+        <div className="mb-44 md:mt-0 mt-44 flex flex-col items-center" id="projects">
+            <h1 className="md:mt-28 text-center text-3xl font-bold">
                 Projets
             </h1>
-            <div className="mt-12 flex md:flex-row flex-col gap-6">
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow scale-100 hover:scale-105 ease-in duration-300">
+            <div className="mt-12 flex lg:flex-row flex-col gap-6">
+                <div className="max-w-sm max-[767px]:w-5/6 mx-auto bg-white border border-gray-200 rounded-lg shadow scale-100 md:hover:scale-105 md:ease-in duration-300">
                     <a href="https://github.com/alcal00/API-Fastify"
                     target="_blank" rel="noopener noreferrer"
                     >
@@ -25,8 +25,8 @@ export function Projects() {
                         </a>
                     </div>
                 </div>
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow scale-100 hover:scale-105 ease-in duration-300">
-                    <a href="https://github.com/alcal00/TodoReact"
+                <div className="max-w-sm max-[767px]:w-5/6 mx-auto bg-white border border-gray-200 rounded-lg shadow scale-100 md:hover:scale-105 md:ease-in duration-300">
+                    <a href="https://todo-react-beryl-delta.vercel.app"
                     target="_blank" rel="noopener noreferrer"
                     >
                         <img className="rounded-t-lg" src="images/TodoListV1.png" alt="" />
@@ -44,8 +44,8 @@ export function Projects() {
                         </a>
                     </div>
                 </div>
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow scale-100 hover:scale-105 ease-in duration-300">
-                    <a href="https://github.com/alcal00/TodoTS"
+                <div className="max-w-sm max-[767px]:w-5/6 mx-auto bg-white border border-gray-200 rounded-lg shadow scale-100 md:hover:scale-105 md:ease-in duration-300">
+                    <a href="https://todo-ts-self.vercel.app"
                     target="_blank" rel="noopener noreferrer"
                     >
                         <img className="rounded-t-lg" src="images/TodoListV2.png" alt="" />

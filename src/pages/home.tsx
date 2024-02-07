@@ -4,10 +4,10 @@ export function Home() {
             <p className="font-semibold text-lg text-center text-gray-600">
                 Bonjour ! Je suis,
             </p>
-            <h1 className="md:text-8xl text-6xl text-center font-extrabold mb-6 mt-4">
+            <h1 className="max-w-md md:max-w-full md:text-8xl text-6xl max-[320px]:text-4xl text-center font-extrabold mb-6 mt-4">
                 Développeur Web
             </h1>
-            <p className="md:text-4xl text-2xl text-center font-bold text-gray-500">
+            <p className="md:text-4xl text-2xl max-[320px]:text-xl text-center font-bold text-gray-500">
                 Alcal DIABY
             </p>
             <div className="mt-6 flex flex-row gap-3">

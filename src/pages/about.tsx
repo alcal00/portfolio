@@ -1,8 +1,9 @@
 
+
 export function About() {
     return (
-        <div className="mt-48 flex flex-col items-center" id="about">
-            <p className="font-semibold text-center text-gray-600">
+        <div className="md:mt-0 mt-56 flex flex-col items-center" id="about">
+            <p className="md:mt-48 font-semibold text-center text-gray-600">
                 En savoir plus
             </p>
             <h1 className="text-center text-3xl font-bold">
@@ -20,9 +21,9 @@ export function About() {
                     <p className="font-normal text-center text-gray-700">IUT Lyon 1</p>
                 </div>
             </div>
-            <div className="max-w-lg mt-6">
+            <div className="max-w-xs md:max-w-lg mt-6">
                 <p className="font-semibold text-center text-gray-600">
-                Étudiant en informatique, je souhaite apporter mes compétences en developpement web dans le cadre d'une alternance à partir du mois d'octobre 2023
+                Étudiant en informatique passionné par le développement web, je suis à la recherche d'un stage à partir du mois de mai 2024 pour mettre en pratique mes compétences et apporter une valeur ajoutée.
                 </p>
             </div>
             <a href="#tech">
